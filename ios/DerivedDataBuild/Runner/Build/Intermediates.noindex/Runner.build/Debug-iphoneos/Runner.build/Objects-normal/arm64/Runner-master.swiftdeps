@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "8478ce2db37c3ae2416adeb62b21a051"
+build_time: [1560103834, 666651000]
+inputs:
+  "/Users/a/dev/grpc/tensor/flutter_chat_grpc_client/ios/Runner/AppDelegate.swift": [1547758512, 493231859]
