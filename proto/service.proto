@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package protos;
+
+message User {
+    string id = 1;
+    string name = 2;
+}
+
+message UserMessage {
+    string id = 1;
+    string content = 2;
+    string timeStamp = 3;
+}
+
+message Connect {
+    User user = 1;
+    bool active = 2;
+}
+
+message Close {}
+
+service Broadcast {
+
+    rpc CreateStream(Connect) returns (stream UserMessage);
+    rpc BroadcastMessage(UserMessage) returns (Close);
+}
