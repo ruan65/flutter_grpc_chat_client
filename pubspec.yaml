@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  crypto: ^2.0.6
   grpc: '>=1.0.2'
   protobuf: '>=0.13.11'
   flutter:
